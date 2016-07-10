@@ -5,7 +5,7 @@
 
     <bean id="appListDao" class="pku.abe.dao.sdkapi.impl.AppListDaoImpl">
         <property name="tableContainer">
-            <bean class="TableContainer">
+            <bean class="pku.abe.data.dao.strategy.TableContainer">
                 <property name="tablesItems">
                     <map>
                         <entry key="appListInfo" value-ref="appListInfo"/>
@@ -15,7 +15,7 @@
         </property>
     </bean>
 
-    <bean id="appListInfo" class="TableItem">
+    <bean id="appListInfo" class="pku.abe.data.dao.strategy.TableItem">
         <property name="itemName" value="appInfo"/>
         <property name="dbNamePrefix" value="dashboard"/>
         <property name="dbCount" value="1"/>

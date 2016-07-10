@@ -12,7 +12,7 @@
 
     <bean id="FingerPrintDao" class="pku.abe.dao.sdkapi.impl.FingerPrintDaoImpl">
         <property name="tableContainer">
-            <bean class="TableContainer">
+            <bean class="pku.abe.data.dao.strategy.TableContainer">
                 <property name="tablesItems">
                     <map>
                         <entry key="fingerPrintInfo" value-ref="fingerPrintInfo"/>
@@ -22,7 +22,7 @@
         </property>
     </bean>
 
-    <bean id="fingerPrintInfo" class="TableItem">
+    <bean id="fingerPrintInfo" class="pku.abe.data.dao.strategy.TableItem">
         <property name="itemName" value="fingerPrintInfo"/>
         <property name="dbNamePrefix" value="fingerprint"/>
         <property name="dbCount" value="4"/>
