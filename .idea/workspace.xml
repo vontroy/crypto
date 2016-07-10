@@ -1,998 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86867505-5395-45bb-9908-26a3596c74ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/auth/AuthFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/auth/LinkedWebAuthService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/auth/SignAuthService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/biz/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/cache/LMApplicationCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/common/LMAppCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/common/LMConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/common/LMFingerConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/common/LMIdentityLinkIdentifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/common/LMPreferenceHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/common/LMShortUrlCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/BaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/AppListDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/ClientDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/DeepLinkDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/DeepLinkParamDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/FingerPrintDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/impl/AppListDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/impl/ClientDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/impl/DeepLinkDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/impl/DeepLinkParamDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/impl/FingerPrintDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/AppDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/BtnCountDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/ButtonDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/ConsumerAppDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/DeepLinkDateCountDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/impl/AppDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/impl/BtnCountDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/impl/ButtonDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/impl/ConsumerAppDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/impl/DeepLinkDateCountDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/webapi/impl/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/AppInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/AppListInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/ButtonCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/ButtonInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/ClientInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/ConsumerAppInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/DeepLink.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/DeepLinkCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/DeepLinkDateCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/DemoInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/FingerPrintInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/UrlTagsInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/AppListParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/AppParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/BaseParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/ButtonParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/ClickBtnParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/ClickButtonParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/CloseParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/ConsumerAppParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/DashboardUrlParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/DemoRequestParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/InitUberButtonParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/InstallParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/JsActionsParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/JsRecordIdParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/OpenParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/PreInstallParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/PreOpenParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/SummaryButtonParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/SummaryDeepLinkParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/UrlParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/UserParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/WebCloseParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/params/WebInitParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/exception/LMException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/exception/LMExceptionFactor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/mcq/ClientMsgPusher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/mcq/DeepLinkMsgPusher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/mcq/FingerPrintMsgPusher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/mcq/McqMsgType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/mcq/McqProcessorStarter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/mcq/MsgUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/mcq/processor/MsgMcqProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/model/LMAppAccountEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/model/LMApplicationEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/model/LMClientInstallEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/model/LMClientOpenEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/model/LMLinkEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/offline_calculation/LogHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/DeepLinkService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/LMApplicationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/LMClientInstallService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/LMClientOpenService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/LMLinkService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/LMRedisService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/AppListService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/ClientService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/FingerPrintService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/JsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/LMSdkService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/impl/AppListServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/impl/ClientServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/impl/FingerPrintServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/impl/JsServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/sdkapi/impl/LMSdkServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/webapi/AppService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/webapi/BtnService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/webapi/ConsumerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/webapi/SummaryService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/webapi/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/webapi/impl/AppServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/service/webapi/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/servlet/AndroidFileServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/servlet/AppleFileServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/servlet/CodeServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/servlet/CommonServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/servlet/MatrixToImageWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/servlet/UrlServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/servlet/UrlTestServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/uber/rides/service/UberService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/Cache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/CacheFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/CacheFactoryStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/CacheSizes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/CacheWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/Cacheable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/DefaultCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/DefaultLocalCacheStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/LinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/LinkedListNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cache/SampleStatsLocalCache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/Endpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/EndpointBalancerException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/EndpointHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/EndpointListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/EndpointManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/EndpointPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/HostAddressListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/HostAddressWatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/ResourceClientSwitcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/impl/EndpointBalancerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/impl/EndpointFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/impl/EndpointHolderImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/impl/EndpointManagerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/impl/EndpointPoolImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/impl/HostAddressWatcherImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/util/ClientBalancerConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/util/ClientBalancerLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/util/ClientBalancerStatLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/util/ClientBalancerUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/client/balancer/util/SystemTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/cookie/CookieHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/counter/CountConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/counter/component/CountComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/counter/component/impl/CountComponentCombine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/counter/component/impl/CountComponentSimple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/counter/dao/CountDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/counter/dao/impl/CountDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/counter/task/CountTaskExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/counter/util/CountCodecUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/counter/util/CountUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/exception/LMException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/exception/LMExceptionFactor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/exception/LinkedmeExceptionMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/json/AdapIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/json/JsonBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/json/JsonUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/json/JsonWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/json/Jsonable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/log/ApiLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/log/FormattingTuple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/log/LogCollector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/log/LogCollectorFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/log/MessageFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/log/PerfLogSession.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/log/ScribeLogCollector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/log/StatLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mail/MailAuthenticator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mail/MailSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mail/MailSenderInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/BaseWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/CommonConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/McqBaseManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/McqClientList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/ReaderMcqClientList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/forward/DefaultForwardFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/forward/ForwardFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/forward/ForwardFilterWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/forward/ForwardMsg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/forward/MsgForwarder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/reader/McqProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/reader/StartReadingAble.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/mcq/writer/McqBaseWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/ByteBufArrayInputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/CacheAble.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/CasValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/ContextObjectInputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/ErrorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/LineInputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/LocalCacheMonitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/MemCacheStorage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/MemCacheTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/MemCachedClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/MemcacheClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/NativeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/NestedIOException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/SockIOPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/SwitcherSupportSockIO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/memcache/VikaCacheClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/profile/AccessStatisticResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/profile/ApiInvokeProfile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/profile/InternalMetricsFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/profile/ProfileConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/profile/ProfileLoggerUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/profile/ProfileType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/profile/ProfileUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/CodecHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisEndpointFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisHAServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisMSServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisPipelineReadCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisPipelineWriteCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisPort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisPortCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisPortUpdateCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisReadPipeline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisReadPipelineAdapterImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisWritePipeline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/JedisWritePipelineAdapterImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/RedisConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/RedisLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/SwitcherSupportJedis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/WeiboJedis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/BinaryClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/BinaryJedis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/BinaryJedisCommands.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/BinaryJedisPubSub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/BinaryShardedJedis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/BinaryTransaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Builder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/BuilderFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Commands.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Connection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/DebugParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Jedis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/JedisCommands.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/JedisMonitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/JedisPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/JedisPoolConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/JedisPubSub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/JedisShardInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Pipeline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/PipelineBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Protocol.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Queable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Response.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/ShardedJedis.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/ShardedJedisPipeline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/ShardedJedisPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/SortingParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Transaction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/TransactionBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/Tuple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/ZParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/exceptions/JedisConnectionException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/exceptions/JedisDataException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/jedis/exceptions/JedisException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/Hashing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/JedisByteHashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/MurmurHash.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/Pool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/RedisInputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/RedisOutputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/SafeEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/ShardInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/Sharded.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/Slowlog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/redis/clients/util/UnmodifiedLongSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/serialization/KryoSerializationUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/shard/DbTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/shard/ShardingSupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/shard/ShardingSupportHash.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/shard/ShardingUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/spring/CacheableObjectFactoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/spring/MCClientFactoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/spring/MCClientListFactoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/spring/McqProcessorInitListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/spring/MysqlClientFactoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/spring/WfcDefinitionParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/spring/WfcNamespaceHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/spring/WfcXmlConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/storageproxy/CacheAbleHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/storageproxy/StorageAble.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/storageproxy/StorageProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/storageproxy/StorageProxyHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/AbstractValueChangeEventMulticaster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/LocalSwitcherManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/LocalSwitcherManagerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/ResourceSwitcherSupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/Switcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/SwitcherChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/SwitcherCloseException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/SwitcherException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/SwitcherManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/SwitcherManagerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/SwitcherManagerFactoryLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/SwitcherNotFindException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/SyncValueChangeEventMulticaster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/ValueChangeEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/ValueChangeEventMulticaster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/ValueChangeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/ValueChangeSupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/console/ConsoleServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/switcher/console/SocketHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/thread/ExecutorServiceUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/thread/StandardThreadExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/thread/TraceRunnable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/thread/TraceableFutureTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/thread/TraceableThreadExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/CachingParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/Device.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/DeviceParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/OS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/OSParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/Parser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/UserAgent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/useragent/UserAgentParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/ApiDateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/ApiUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/ArrayUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/Base62.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/CommonUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/DeepLinkUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/HashUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/HostUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/HttpManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/IPUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/MD5Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/McqUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/QuickLZ.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/RequestTraceContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/ResourceInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/TimeStatUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/UseTimeStasticsMonitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/Util.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/UuidConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/util/UuidHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/utils/FingerPrintUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/utils/LogUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/utils/MD5Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/utils/RandomUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/utils/SerializationUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/utils/ShortUrlUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/utils/TimeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/utils/UUIDUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/utils/UserAgentUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/commons/uuid/UuidCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/strategy/TableChannel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/strategy/TableContainer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/strategy/TableItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/strategy/TableItemHlper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/util/ArgPreparedStatementSetter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/util/ArgTypePreparedStatementSetter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/util/DaoUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/util/DateDuration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/util/InvalidDBCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/util/JdbcAccessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/util/JdbcTemplate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/util/JdbcTemplateForDerby.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/java/pku/abe/data/dao/util/MonthTableSI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/test/java/pku/abe/commons/MD5UtilsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/test/java/pku/abe/commons/memcache/MemCacheTemplateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/test/java/pku/abe/commons/serialization/KryoSerializationUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/test/java/pku/abe/commons/shard/ShardingSupportHashTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/test/java/pku/abe/commons/useragent/ParserTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/test/java/pku/abe/commons/uuid/UuidCreatorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-commons/src/test/java/pku/abe/data/dao/util/JdbcTemplateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/java/pku/abe/api/lkme/web/sdk/LMSdkResources.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/auth/AuthFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/auth/LinkedWebAuthService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/auth/SignAuthService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/biz/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/cache/LMApplicationCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/common/LMAppCount.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/common/LMConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/common/LMFingerConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/common/LMIdentityLinkIdentifier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/common/LMPreferenceHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/common/LMShortUrlCount.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/BaseDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/AppListDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/ClientDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/DeepLinkDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/DeepLinkParamDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/FingerPrintDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/impl/AppListDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/impl/ClientDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/impl/DeepLinkDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/impl/DeepLinkParamDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/sdkapi/impl/FingerPrintDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/AppDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/BtnCountDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/ButtonDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/ConsumerAppDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/DeepLinkDateCountDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/UserDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/impl/AppDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/impl/BtnCountDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/impl/ButtonDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/impl/ConsumerAppDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/impl/DeepLinkDateCountDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/dao/webapi/impl/UserDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/AppInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/AppListInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/ButtonCount.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/ButtonInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/ClientInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/ConsumerAppInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/DeepLink.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/DeepLinkCount.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/DeepLinkDateCount.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/DemoInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/FingerPrintInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/UrlTagsInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/UserInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/AppListParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/AppParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/BaseParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/ButtonParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/ClickBtnParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/ClickButtonParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/CloseParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/ConsumerAppParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/DashboardUrlParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/DemoRequestParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/InitUberButtonParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/InstallParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/JsActionsParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/JsRecordIdParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/OpenParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/PreInstallParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/PreOpenParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/SummaryButtonParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/SummaryDeepLinkParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/UrlParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/UserParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/WebCloseParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/data/model/params/WebInitParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/exception/LMException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/exception/LMExceptionFactor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/mcq/ClientMsgPusher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/mcq/DeepLinkMsgPusher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/mcq/FingerPrintMsgPusher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/mcq/McqMsgType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/mcq/McqProcessorStarter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/mcq/MsgUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/mcq/processor/MsgMcqProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/model/LMAppAccountEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/model/LMApplicationEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/model/LMClientInstallEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/model/LMClientOpenEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/model/LMLinkEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/offline_calculation/LogHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/DeepLinkService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/LMApplicationService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/LMClientInstallService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/LMClientOpenService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/LMLinkService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/LMRedisService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/AppListService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/ClientService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/FingerPrintService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/JsService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/LMSdkService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/impl/AppListServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/impl/ClientServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/impl/FingerPrintServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/impl/JsServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/sdkapi/impl/LMSdkServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/webapi/AppService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/webapi/BtnService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/webapi/ConsumerService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/webapi/SummaryService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/webapi/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/webapi/impl/AppServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/service/webapi/impl/UserServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/servlet/AndroidFileServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/servlet/AppleFileServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/servlet/CodeServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/servlet/CommonServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/servlet/MatrixToImageWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/servlet/UrlServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/servlet/UrlTestServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/java/cc/linkedme/uber/rides/service/UberService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/test/console.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/test/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/test/mc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/test/mcq.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/test/redis.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/uber/secrets.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-api/src/test/java/cc/linkedme/biz/TestTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/Cache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/CacheFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/CacheFactoryStrategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/CacheSizes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/CacheWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/Cacheable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/DefaultCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/DefaultLocalCacheStrategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/LinkedList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/LinkedListNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cache/SampleStatsLocalCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/Endpoint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/EndpointBalancerException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/EndpointHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/EndpointListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/EndpointManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/EndpointPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/HostAddressListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/HostAddressWatcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/ResourceClientSwitcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/impl/EndpointBalancerConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/impl/EndpointFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/impl/EndpointHolderImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/impl/EndpointManagerImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/impl/EndpointPoolImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/impl/HostAddressWatcherImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/util/ClientBalancerConstant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/util/ClientBalancerLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/util/ClientBalancerStatLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/util/ClientBalancerUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/client/balancer/util/SystemTimer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/cookie/CookieHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/counter/CountConst.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/counter/component/CountComponent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/counter/component/impl/CountComponentCombine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/counter/component/impl/CountComponentSimple.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/counter/dao/CountDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/counter/dao/impl/CountDaoImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/counter/task/CountTaskExecutor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/counter/util/CountCodecUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/counter/util/CountUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/exception/LMException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/exception/LMExceptionFactor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/exception/LinkedmeExceptionMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/json/AdapIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/json/JsonBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/json/JsonUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/json/JsonWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/json/Jsonable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/log/ApiLogger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/log/FormattingTuple.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/log/LogCollector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/log/LogCollectorFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/log/MessageFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/log/PerfLogSession.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/log/ScribeLogCollector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/log/StatLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mail/MailAuthenticator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mail/MailSender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mail/MailSenderInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/BaseWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/CommonConst.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/McqBaseManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/McqClientList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/ReaderMcqClientList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/forward/DefaultForwardFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/forward/ForwardFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/forward/ForwardFilterWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/forward/ForwardMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/forward/MsgForwarder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/reader/McqProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/reader/StartReadingAble.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/mcq/writer/McqBaseWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/ByteBufArrayInputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/CacheAble.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/CasValue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/ContextObjectInputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/ErrorHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/LineInputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/LocalCacheMonitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/MemCacheStorage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/MemCacheTemplate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/MemCachedClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/MemcacheClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/NativeHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/NestedIOException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/SockIOPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/SwitcherSupportSockIO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/memcache/VikaCacheClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/profile/AccessStatisticResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/profile/ApiInvokeProfile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/profile/InternalMetricsFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/profile/ProfileConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/profile/ProfileLoggerUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/profile/ProfileType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/profile/ProfileUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/CodecHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisEndpointFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisHAServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisMSServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisPipelineReadCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisPipelineWriteCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisPort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisPortCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisPortUpdateCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisReadPipeline.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisReadPipelineAdapterImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisWritePipeline.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/JedisWritePipelineAdapterImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/RedisConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/RedisLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/SwitcherSupportJedis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/WeiboJedis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/BinaryClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/BinaryJedis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/BinaryJedisCommands.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/BinaryJedisPubSub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/BinaryShardedJedis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/BinaryTransaction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Builder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/BuilderFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Commands.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Connection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/DebugParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Jedis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/JedisCommands.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/JedisMonitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/JedisPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/JedisPoolConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/JedisPubSub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/JedisShardInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Pipeline.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/PipelineBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Protocol.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Queable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Response.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/ShardedJedis.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/ShardedJedisPipeline.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/ShardedJedisPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/SortingParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Transaction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/TransactionBlock.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/Tuple.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/ZParams.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/exceptions/JedisConnectionException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/exceptions/JedisDataException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/jedis/exceptions/JedisException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/Hashing.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/JedisByteHashMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/MurmurHash.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/Pool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/RedisInputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/RedisOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/SafeEncoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/ShardInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/Sharded.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/Slowlog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/redis/clients/util/UnmodifiedLongSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/serialization/KryoSerializationUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/shard/DbTable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/shard/ShardingSupport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/shard/ShardingSupportHash.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/shard/ShardingUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/spring/CacheableObjectFactoryBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/spring/MCClientFactoryBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/spring/MCClientListFactoryBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/spring/McqProcessorInitListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/spring/MysqlClientFactoryBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/spring/WfcDefinitionParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/spring/WfcNamespaceHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/spring/WfcXmlConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/storageproxy/CacheAbleHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/storageproxy/StorageAble.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/storageproxy/StorageProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/storageproxy/StorageProxyHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/AbstractValueChangeEventMulticaster.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/LocalSwitcherManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/LocalSwitcherManagerFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/ResourceSwitcherSupport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/Switcher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/SwitcherChangeListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/SwitcherCloseException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/SwitcherException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/SwitcherManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/SwitcherManagerFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/SwitcherManagerFactoryLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/SwitcherNotFindException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/SyncValueChangeEventMulticaster.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/ValueChangeEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/ValueChangeEventMulticaster.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/ValueChangeListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/ValueChangeSupport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/console/ConsoleServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/switcher/console/SocketHandle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/thread/ExecutorServiceUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/thread/StandardThreadExecutor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/thread/TraceRunnable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/thread/TraceableFutureTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/thread/TraceableThreadExecutor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/CachingParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/Device.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/DeviceParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/OS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/OSParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/Parser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/UserAgent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/useragent/UserAgentParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/ApiDateUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/ApiUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/ArrayUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/Base62.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/CommonUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/Constants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/DeepLinkUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/HashUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/HostUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/HttpManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/IPUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/MD5Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/McqUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/QuickLZ.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/RequestTraceContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/ResourceInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/TimeStatUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/UseTimeStasticsMonitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/Util.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/UuidConst.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/util/UuidHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/utils/FingerPrintUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/utils/LogUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/utils/MD5Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/utils/RandomUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/utils/SerializationUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/utils/ShortUrlUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/utils/TimeUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/utils/UUIDUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/utils/UserAgentUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/commons/uuid/UuidCreator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/strategy/TableChannel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/strategy/TableContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/strategy/TableItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/strategy/TableItemHlper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/util/ArgPreparedStatementSetter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/util/ArgTypePreparedStatementSetter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/util/DaoUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/util/DateDuration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/util/InvalidDBCheck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/util/JdbcAccessor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/util/JdbcTemplate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/util/JdbcTemplateForDerby.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/java/cc/linkedme/data/dao/util/MonthTableSI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/test/java/cc/linkedme/commons/MD5UtilsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/test/java/cc/linkedme/commons/memcache/MemCacheTemplateTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/test/java/cc/linkedme/commons/serialization/KryoSerializationUtilTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/test/java/cc/linkedme/commons/shard/ShardingSupportHashTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/test/java/cc/linkedme/commons/useragent/ParserTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/test/java/cc/linkedme/commons/uuid/UuidCreatorTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-commons/src/test/java/cc/linkedme/data/dao/util/JdbcTemplateTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/api/resources/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/api/resources/Button.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/api/resources/ConsumerApp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/api/resources/Link.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/api/resources/Summary.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/api/resources/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/api/resources/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/servlet/AbstractServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/servlet/demoh5/LMAppsServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/servlet/demoh5/LMFeatureServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/servlet/demoh5/LMHomeServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/java/cc/linkedme/servlet/demoh5/LMSummaryServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/resources/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/resources/spring/webapi-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/404.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/500.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/clientaccesspolicy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/CSS/LinkedMe.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/APP/36kr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/APP/daokoudai.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/APP/jiniu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/APP/juejin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/APP/meitian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/APP/wanjubeijing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/APP/xiaofanzhuo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/APP/youya.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/chart1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/chart2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/chart3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/chart4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/chart5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Characters/title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/DEMO-点击.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/app.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/backgroundline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/demo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/feature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/intro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/产品特点-点击.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/应用方-点击.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Entry/简介-点击.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Intro/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/Intro/backgroundline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/LinkedME.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/LinkedMe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demoh5/Images/open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demojsp/apps.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demojsp/features.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demojsp/home.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/demojsp/intro.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/index200.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/index503.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/iosdemo/apps.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/iosdemo/features.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/iosdemo/home.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/iosdemo/intro.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkedme-web/src/main/webapp/js/linkedme.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/api/lkme/web/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/api/lkme/web/jsserver/LMJSServerResources.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/api/lkme/web/link/LMLinkResources.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/api/lkme/web/sdk/LMSdkResources.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/api/lkme/web/sdk/LMUberResources.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/service/BtnCountMigrateService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/service/DeeplinkCountMigrateService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/servlet/AbstractServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/servlet/demoh5/LMAppsServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/servlet/demoh5/LMFeatureServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/servlet/demoh5/LMHomeServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/servlet/demoh5/LMSummaryServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/task/BtnCountMigrateTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/task/DeepLinkCountMigrateTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/java/cc/linkedme/task/TaskTrigger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/.well-known/assetlinks.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/apple-app-site-association" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/baidu_verify_t7b4nhNged.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/code.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/deeplink_error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/CSS/LinkedMe.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/APP/36kr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/APP/daokoudai.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/APP/jiniu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/APP/juejin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/APP/meitian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/APP/wanjubeijing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/APP/xiaofanzhuo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/APP/youya.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/chart1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/chart2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/chart3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/chart4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/chart5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Characters/title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/DEMO-点击.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/app.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/backgroundline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/demo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/feature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/intro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/产品特点-点击.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/应用方-点击.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Entry/简介-点击.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Intro/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/Intro/backgroundline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/LinkedME.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/LinkedMe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demoh5/Images/open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demojsp/apps.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demojsp/features.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demojsp/home.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/demojsp/intro.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/cannot_forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/expired_link.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/invalid_link.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/no_android.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/no_ios.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/open_android_browser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/open_app.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/cn/open_ios_browser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/cannot_forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/expired_link.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/invalid_link.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/no_android.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/no_ios.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/open_android_browser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/open_app.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/en/open_ios_browser.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/img/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/cn/langconfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/en/langconfig.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/lib/jquery-2.1.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/lib/jquery.qrcode.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/linkedme-redirect-new.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/linkedme-redirect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/linkedme-redirect3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/linkedme-redirect4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/js/linkedme.min.1.0.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/linkedme.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/pom.xml" afterPath="$PROJECT_DIR$/pkuabe-api/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/api-resource.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/api-resource.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/dev/console.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/dev/console.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/dev/jdbc.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/dev/jdbc.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/dev/mc.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/dev/mc.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/dev/mcq.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/dev/mcq.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/dev/redis.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/dev/redis.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/live/console.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/live/console.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/live/jdbc.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/live/jdbc.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/live/mc.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/live/mc.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/live/mcq.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/live/mcq.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/live/redis.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/live/redis.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/app/app-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/app/app-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/applist/applist-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/applist/applist-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/button/btn-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/button/btn-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/button/btn-count-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/button/btn-count-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/client/client-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/client/client-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/consumer/consumer-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/consumer/consumer-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/deeplink/deeplink-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/deeplink/deeplink-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/deeplink/deeplink-datecount-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/deeplink/deeplink-datecount-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/fingerprint/fingerprint-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/fingerprint/fingerprint-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/js/js.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/js/js.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/mc/mc.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/mc/mc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/mcq/mcq-context.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/mcq/mcq-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/mysql/mysql.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/mysql/mysql.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/redis/redis.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/redis/redis.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-api/src/main/resources/spring/user/user-content.xml" afterPath="$PROJECT_DIR$/pkuabe-api/src/main/resources/spring/user/user-content.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/pom.xml" afterPath="$PROJECT_DIR$/pkuabe-commons/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/META-INF/MANIFEST.MF" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/META-INF/spring.handlers" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/META-INF/spring.handlers" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/META-INF/spring.schemas" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/META-INF/spring.schemas" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/META-INF/wfc.xsd" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/META-INF/wfc.xsd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/commons-resource.xml" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/commons-resource.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/jdbc-test.properties" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/jdbc-test.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/regexes.yaml" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/regexes.yaml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/spring/mc.xml" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/spring/mc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linkedme-commons/src/main/resources/spring/mysql.xml" afterPath="$PROJECT_DIR$/pkuabe-commons/src/main/resources/spring/mysql.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/pom.xml" afterPath="$PROJECT_DIR$/pkuabe-web/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/resources/applicationContext.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/resources/log4j.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/src/main/resources/spring/resource-context.xml" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/resources/spring/resource-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/404.jsp" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/webapp/404.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/500.jsp" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/webapp/500.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/webapp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/index200.jsp" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/webapp/index200.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lkme-web/src/main/webapp/index503.jsp" afterPath="$PROJECT_DIR$/pkuabe-web/src/main/webapp/index503.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="86867505-5395-45bb-9908-26a3596c74ef" name="Default" comment="" />
     <ignored path="java-platform.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -1068,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeyInfo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KeyInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/data/model/KeyInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -1078,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppListDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/dao/sdkapi/impl/AppListDaoImpl.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/biz/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="152">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1306,6 +315,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pkuabe-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-platform" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pkuabe-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="biz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1996,12 +1069,12 @@
       <workItem from="1467944253599" duration="4252000" />
       <workItem from="1468031734670" duration="892000" />
       <workItem from="1468078772331" duration="3958000" />
-      <workItem from="1468117739444" duration="2436000" />
+      <workItem from="1468117739444" duration="3037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111660000" />
+    <option name="totallyTimeSpent" value="112261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1011" extended-state="6" />
@@ -2102,16 +1175,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/common/LMAppCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/common/LMShortUrlCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -2504,6 +1567,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkuabe-api/src/main/java/pku/abe/biz/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
